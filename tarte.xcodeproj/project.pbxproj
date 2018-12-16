@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C03402F21C63AEF00488DAE /* iPhoneSE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C03402E21C63AEF00488DAE /* iPhoneSE.storyboard */; };
+		1C03403121C63BD300488DAE /* iPhone8Plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C03403021C63BD300488DAE /* iPhone8Plus.storyboard */; };
 		1CDF11D921C0B91300CEDDA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDF11D821C0B91300CEDDA6 /* AppDelegate.swift */; };
 		1CDF11DB21C0B91300CEDDA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDF11DA21C0B91300CEDDA6 /* ViewController.swift */; };
 		1CDF11DE21C0B91400CEDDA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CDF11DC21C0B91400CEDDA6 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C03402E21C63AEF00488DAE /* iPhoneSE.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneSE.storyboard; sourceTree = "<group>"; };
+		1C03403021C63BD300488DAE /* iPhone8Plus.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhone8Plus.storyboard; sourceTree = "<group>"; };
 		1CDF11D521C0B91300CEDDA6 /* tarte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tarte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CDF11D821C0B91300CEDDA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CDF11DA21C0B91300CEDDA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				1CDF11D821C0B91300CEDDA6 /* AppDelegate.swift */,
 				1CDF11DA21C0B91300CEDDA6 /* ViewController.swift */,
 				1CDF11DC21C0B91400CEDDA6 /* Main.storyboard */,
+				1C03402E21C63AEF00488DAE /* iPhoneSE.storyboard */,
+				1C03403021C63BD300488DAE /* iPhone8Plus.storyboard */,
 				1CDF11DF21C0B91500CEDDA6 /* Assets.xcassets */,
 				1CDF11E121C0B91500CEDDA6 /* LaunchScreen.storyboard */,
 				1CDF11E421C0B91500CEDDA6 /* Info.plist */,
@@ -123,7 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CDF11E321C0B91500CEDDA6 /* LaunchScreen.storyboard in Resources */,
+				1C03402F21C63AEF00488DAE /* iPhoneSE.storyboard in Resources */,
 				1CDF11E021C0B91500CEDDA6 /* Assets.xcassets in Resources */,
+				1C03403121C63BD300488DAE /* iPhone8Plus.storyboard in Resources */,
 				1CDF11DE21C0B91400CEDDA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

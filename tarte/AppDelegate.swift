@@ -27,13 +27,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func grabStoryboad() -> UIStoryboard {
         var storyBoard = UIStoryboard()
         let height = UIScreen.main.bounds.height
-
-        if height == 667 {
-            storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        } else if height == 736 {
-            storyBoard = UIStoryboard(name: "iPhone8Plus", bundle: nil)
-        } else if height == 568 {
+        
+        if height <= 568 {
             storyBoard = UIStoryboard(name: "iPhoneSE", bundle: nil)
+        } else if 568 <= height && height <= 667 {
+            storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        } else if 667 <= height && height >= 736 {
+            storyBoard = UIStoryboard(name: "iPhone8Plus", bundle: nil)
         } else {
             storyBoard = UIStoryboard(name: "Main", bundle: nil)
         }
